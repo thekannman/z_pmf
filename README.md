@@ -10,6 +10,9 @@ Current limitations of the program include:
 * Input data must be in the pullx.xvg format from GROMACS, use of pullf.xvg is not yet implemented.
 * Several important parameters are hard-coded, including temperature and histogram range.
 
+The following libraries are required for this program:
+* The Boost libraries (specifically boost filesystem, boost system, and boost program_options)
+
 The primary reasons this program exists are:
 * I needed to thoroughly understand the implementation of WHAM.
 * The wham program by Grossfield requires a complicated metadata file. Much of the data in that file 
